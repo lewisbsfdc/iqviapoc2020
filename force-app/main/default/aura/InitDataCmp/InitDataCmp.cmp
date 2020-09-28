@@ -1,0 +1,138 @@
+<aura:component
+        implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"
+        description="Configuration for vertical navigation tabs"
+        access="global"
+>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler
+            event="aura:locationChange"
+            action="{!c.refreshOnlocationChange}"
+    />
+    <aura:registerEvent name="appEvent" type="c:InitDataLayoutEvent" />
+
+    <!--One attribute for each middle region in layoutRecordPage. Vertical nav tabs control the visibility of the regions. -->
+    <aura:attribute
+            name="region1Config"
+            type="String"
+            access="global"
+            description="Region 1 tab configuration"
+    />
+    <aura:attribute
+            name="region2Config"
+            type="String"
+            access="global"
+            description="Region 2 tab configuration"
+    />
+    <aura:attribute
+            name="region3Config"
+            type="String"
+            access="global"
+            description="Region 3 tab configuration"
+    />
+    <aura:attribute
+            name="region4Config"
+            type="String"
+            access="global"
+            description="Region 4 tab configuration"
+    />
+    <aura:attribute
+            name="region5Config"
+            type="String"
+            access="global"
+            description="Region 5 tab configuration"
+    />
+    <aura:attribute
+            name="region6Config"
+            type="String"
+            access="global"
+            description="Region 6 tab configuration"
+    />
+    <aura:attribute
+            name="region7Config"
+            type="String"
+            access="global"
+            description="Region 7 tab configuration"
+    />
+    <aura:attribute
+            name="region8Config"
+            type="String"
+            access="global"
+            description="Region 8 tab configuration"
+    />
+    <aura:attribute
+            name="region9Config"
+            type="String"
+            access="global"
+            description="Region 9 tab configuration"
+    />
+    <aura:attribute
+            name="region10Config"
+            type="String"
+            access="global"
+            description="Region 10 tab configuration"
+    />
+    <aura:attribute
+            name="region11Config"
+            type="String"
+            access="global"
+            description="Region 11 tab configuration"
+    />
+    <aura:attribute
+            name="region12Config"
+            type="String"
+            access="global"
+            description="Region 12 tab configuration"
+    />
+    <aura:attribute
+            name="region13Config"
+            type="String"
+            access="global"
+            description="Region 13 tab configuration"
+    />
+    <aura:attribute
+            name="region14Config"
+            type="String"
+            access="global"
+            description="Region 14 tab configuration"
+    />
+    <aura:attribute
+            name="region15Config"
+            type="String"
+            access="global"
+            description="Region 15 tab configuration"
+    />
+    <aura:attribute
+            name="region16Config"
+            type="String"
+            access="global"
+            description="Region 16 tab configuration"
+    />
+    <aura:attribute
+            name="region17Config"
+            type="String"
+            access="global"
+            description="Region 17 tab configuration"
+    />
+    <aura:attribute
+            name="region18Config"
+            type="String"
+            access="global"
+            description="Region 18 tab configuration"
+    />
+    <aura:attribute
+            name="region19Config"
+            type="String"
+            access="global"
+            description="Region 19 tab configuration"
+    />
+    <aura:attribute
+            name="region20Config"
+            type="String"
+            access="global"
+            description="Region 20 tab configuration"
+    />
+
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="helptext" type="String" />
+    <lightning:formattedRichText value="{!v.helptext}" />
+</aura:component>

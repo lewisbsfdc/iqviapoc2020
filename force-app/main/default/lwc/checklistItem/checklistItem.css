@@ -1,0 +1,16 @@
+/**
+ * Created by Dima on 18.08.2020.
+ */
+.first-column{
+    width: 10%;
+}
+
+.second-column{
+    width: 90%;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.icon-check svg > use{
+    fill: green;
+}

@@ -1,0 +1,7 @@
+<!--
+ - Created by Dima on 14.08.2020.
+ -->
+
+<design:component>
+    <design:attribute name="picklistFieldApiName" label="picklistFieldApiName" description="picklistFieldApiName"/>
+</design:component>

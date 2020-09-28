@@ -1,0 +1,256 @@
+<aura:component
+        implements="lightning:recordHomeTemplate"
+        description="Engage Custom Record Page Template"
+        access="global"
+>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute
+            name="header"
+            type="Aura.Component[]"
+            description="Header region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar1"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar2"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar3"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar4"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar5"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar6"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar7"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar8"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar9"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar10"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar11"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar12"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar13"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar14"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar15"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar16"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar17"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar18"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar19"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="sidebar20"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute
+            name="initdatacmparea"
+            type="Aura.Component[]"
+            description="vertical navigation region"
+            access="global"
+    />
+    <aura:attribute
+            name="showmsg"
+            type="Boolean"
+            description="show message"
+            default="true"
+    />
+    <aura:attribute
+            name="isBuilderTime"
+            type="Boolean"
+            description="show message"
+            default="true"
+    />
+    <aura:attribute
+            name="collapsiblebar"
+            type="Aura.Component[]"
+            description="Dynamic sidebar region"
+            access="global"
+    />
+    <aura:attribute name="tab" type="Object[]" />
+    <div class="apo-layout-container">
+        <lightning:layout class='slds-wrap'>
+            <lightning:layoutItem flexibility="grow" size="12">
+                <div class="apo-divheader__background">
+                    {!v.header}
+                    <div class="apo-divline-divider"></div>
+                </div>
+            </lightning:layoutItem>
+            <lightning:layoutItem class="apo-layout-scroll_item">
+                <c:InitDataLayout objectChildTab="{!v.tab}" noSetup="{!v.showmsg}" showNoSetup="{!v.isBuilderTime}"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem
+                    flexibility="auto"
+                    class="apo-layout-container_item"
+            >
+                <aura:iteration items="{!v.tab}" var="tab">
+                    <div
+                            data-tab="{!tab.name}"
+                            aura:id="divIdTab"
+                            class="{! tab.isSelected ? '' : 'slds-hide' }"
+                    >
+                        <aura:if isTrue="{!tab.region == 'sidebar1'}">
+                            {!v.sidebar1}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar2'}">
+                            {!v.sidebar2}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar3'}">
+                            {!v.sidebar3}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar4'}">
+                            {!v.sidebar4}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar5'}">
+                            {!v.sidebar5}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar6'}">
+                            {!v.sidebar6}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar7'}">
+                            {!v.sidebar7}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar8'}">
+                            {!v.sidebar8}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar9'}">
+                            {!v.sidebar9}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar10'}">
+                            {!v.sidebar10}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar11'}">
+                            {!v.sidebar11}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar12'}">
+                            {!v.sidebar12}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar13'}">
+                            {!v.sidebar13}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar14'}">
+                            {!v.sidebar14}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar15'}">
+                            {!v.sidebar15}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar16'}">
+                            {!v.sidebar16}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar17'}">
+                            {!v.sidebar17}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar18'}">
+                            {!v.sidebar18}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar19'}">
+                            {!v.sidebar19}
+                        </aura:if>
+                        <aura:if isTrue="{!tab.region == 'sidebar20'}">
+                            {!v.sidebar20}
+                        </aura:if>
+                    </div>
+                </aura:iteration>
+            </lightning:layoutItem>
+            <lightning:layoutItem>
+                <div aura:id="apo-blade" class="apo-blade design-allow-interaction">
+                    <div class="apo-blade__toggle">
+                        <div class="apo-blade__toggle-button" onclick="{!c.toggleSection}">
+                            <a aura:id="apo-arrow" class="apo-toggle-button__right"></a>
+                        </div>
+                    </div>
+                    <div class="apo-container-collapsible">
+                        {!v.collapsiblebar}
+                    </div>
+                </div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+</aura:component>

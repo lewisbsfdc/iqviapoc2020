@@ -1,0 +1,122 @@
+<design:component label="Layout Tab Configuration">
+    <design:attribute
+            placeholder="1,label,icon"
+            label="Tab sequence, label and icon"
+            name="region1Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="2,label,icon"
+            label="Tab sequence, label and icon"
+            name="region2Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="3,label,icon"
+            label="Tab sequence, label and icon"
+            name="region3Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="4,label,icon"
+            label="Tab sequence, label and icon"
+            name="region4Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="5,label,icon"
+            label="Tab sequence, label and icon"
+            name="region5Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="6,label,icon"
+            label="Tab sequence, label and icon"
+            name="region6Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="7,label,icon"
+            label="Tab sequence, label and icon"
+            name="region7Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="8,label,icon"
+            label="Tab sequence, label and icon"
+            name="region8Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="9,label,icon"
+            label="Tab sequence, label and icon"
+            name="region9Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="10,label,icon"
+            label="Tab sequence, label and icon"
+            name="region10Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="11,label,icon"
+            label="Tab sequence, label and icon"
+            name="region11Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="12,label,icon"
+            label="Tab sequence, label and icon"
+            name="region12Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="13,label,icon"
+            label="Tab sequence, label and icon"
+            name="region13Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="14,label,icon"
+            label="Tab sequence, label and icon"
+            name="region14Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="15,label,icon"
+            label="Tab sequence, label and icon"
+            name="region15Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="16,label,icon"
+            label="Tab sequence, label and icon"
+            name="region16Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="17,label,icon"
+            label="Tab sequence, label and icon"
+            name="region17Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="18,label,icon"
+            label="Tab sequence, label and icon"
+            name="region18Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="19,label,icon"
+            label="Tab sequence, label and icon"
+            name="region19Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+    <design:attribute
+            placeholder="20,label,icon"
+            label="Tab sequence, label and icon"
+            name="region20Config"
+            description="Enter tab sequence number, custom label and icon as a comma separated list"
+    />
+</design:component>

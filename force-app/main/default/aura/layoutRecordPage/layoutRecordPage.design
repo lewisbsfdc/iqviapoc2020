@@ -1,0 +1,28 @@
+<design:component label="Engage Custom Record Page Template">
+
+    <flexipage:template>
+        <flexipage:region name="header" defaultWidth="LARGE" />
+        <flexipage:region name="sidebar1" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar2" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar3" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar4" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar5" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar6" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar7" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar8" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar9" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar10" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar11" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar12" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar13" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar14" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar15" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar16" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar17" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar18" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar19" defaultWidth="MEDIUM" />
+        <flexipage:region name="sidebar20" defaultWidth="MEDIUM" />
+        <flexipage:region name="collapsiblebar" defaultWidth="SMALL" />
+        <flexipage:region name="initdatacmparea" defaultWidth="SMALL" />
+    </flexipage:template>
+</design:component>

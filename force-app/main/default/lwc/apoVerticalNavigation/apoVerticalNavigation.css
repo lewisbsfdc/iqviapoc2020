@@ -1,0 +1,35 @@
+.apo-left-navigation{
+    background-color: #250056;
+    width:14.7rem;
+    color: rgba(255, 255, 255, .64);
+    height: 100%;
+    text-decoration: none;
+    font-size:.875rem;
+    flex-direction: column;
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height:100vh;
+}
+.apo-left-navigation-active{
+    background-color: #632ecd;
+    width:14.7rem;
+    color: rgba(255, 255, 255, .64);
+    height: 100%;
+    text-decoration: none;
+    font-size:.875rem;
+    flex-direction: column;
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height:100vh;
+}
+
+.apo-left-navigation__list{
+    overflow: auto;
+    max-height: Calc(100vh - 194px);
+}

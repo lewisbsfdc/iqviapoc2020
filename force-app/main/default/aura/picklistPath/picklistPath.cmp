@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" >
+    <aura:attribute name="picklistFieldApiName" type="String" />
+    <lightning:picklistPath aura:id="picklistPath" recordId="{!v.recordId}"
+                            variant="linear"
+                            picklistFieldApiName="{!v.picklistFieldApiName}"
+                            onselect="{!c.handleSelect}">
+    </lightning:picklistPath>
+</aura:component>

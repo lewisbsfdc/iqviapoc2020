@@ -1,0 +1,17 @@
+<!--
+ - Created by Dima on 17.08.2020.
+ -->
+
+<!-- Checklist Item -->
+<template>
+    <div class="slds-grid slds-p-top_x-small">
+        <div class="slds-col first-column">
+            <template if:true={checklistItemDone}>
+                <lightning-icon icon-name="utility:check" alternative-text="Done" title="Done" size="x-small" class="icon-check"></lightning-icon>
+            </template>
+        </div>
+        <div class="slds-col second-column slds-p-top_xxx-small">
+            {checklistItemName}
+        </div>
+    </div>
+</template>

@@ -1,0 +1,13 @@
+<template>
+    <nav class="apo-left-navigation" style={style}>
+        <ul class="apo-left-navigation__list">
+            <template for:each={tabs} for:item="tab">
+                <c-apo-vertical-navigation-item
+                        tab={tab}
+                        key={tab.id}
+                        onselecttab={handleSelection}
+                ></c-apo-vertical-navigation-item>
+            </template>
+        </ul>
+    </nav>
+</template>

@@ -1,0 +1,103 @@
+.THIS.apo-layout-container {
+    margin-top: -11px;
+    margin-left: -16px;
+}
+
+/* Header - spans three columns */
+.THIS .apo-divheader__background {
+    background-color: #f8f9fb;
+    height: auto;
+    min-height: 50px;
+}
+
+/* FIRST column / tabs */
+.THIS .apo-layout-scroll_item {
+    height: calc(100vh - 194px);
+    overflow: hidden;
+    height: Calc(100vh - 194px);
+    background-color: #250056;
+}
+
+/* SECOND column */
+.THIS .apo-layout-container_item {
+    padding: 14px 24px 24px 24px;
+    background-color: #f8f9fb;
+    height: calc(100vh - 194px);
+    overflow: scroll;
+    width: min-content;
+    flex-basis: 0;
+}
+
+/* THIRD column */
+.THIS .apo-container-collapsible {
+    padding-top: 14px;
+    padding-bottom: 24px;
+    height: calc(100vh - 194px);
+    background-color: #ffffff;
+    width: 340px;
+    overflow: auto;
+}
+
+.THIS .apo-divline-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+/*
+  added for blade below this comment
+*/
+/* The sidepanel menu */
+.THIS .apo-blade {
+    /* height: 569px; */
+    width: 345px; /* 0 width - change this with JavaScript */
+    z-index: 1; /* Stay on top */
+    margin-top: -1px;
+    right: 0;
+    background-color: #fff; /* Black*/
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    border: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: flex-start;
+}
+.THIS .apo-blade__toggle {
+    display: flex;
+    align-items: center;
+}
+.THIS .apo-blade__content {
+    padding: 40px 40px 40px 16px;
+}
+/* Style the button that is used to open the sidepanel */
+.THIS .apo-blade__toggle-button {
+    width: 24px;
+    height: 56px;
+    border-radius: 0 4px 4px 0;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.THIS .apo-toggle-button__right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #000;
+}
+.THIS .apo-toggle-button__left {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #000;
+}
+.THIS .apo-blade__toggle-button:hover {
+    background-color: #ecf3ff;
+}
+
+.THIS .apo-instruct-text__container{
+    width:14.7rem;
+    color: rgba(255, 255, 255, .64);
+    padding: 10px 10px 0px 10px;
+}
