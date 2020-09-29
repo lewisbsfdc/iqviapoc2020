@@ -1,0 +1,138 @@
+:root {
+    /* ----------------------
+        Brand Colors 
+    ------------------------ */
+    --color-primary: #0768fd;
+    --color-secondary: #FFFFFF;
+    --color-tertiary: #F2F2F2;
+    --color-linear-gradient: linear-gradient(to left, #0076AE 0%, #250D56 100%);
+    --color-tall-gradient: linear-gradient(to top, #0076AE 0%, #250D56 100%);
+    --color-body-text: #444444;
+    /* ----------------------
+        Support Color 
+    ------------------------- */
+    --color-white: #ffffff;
+    --color-neutral-1: #f8f9fb;
+    --color-neutral-2: #fbfbfb;
+    --color-neutral-3: #e9e9e9;
+    --color-neutral-4: #d9d9d9;
+    --color-neutral-5: #b5b5b5;
+    --color-neutral-6: #999999;
+    --color-neutral-7: #595959;
+    --color-black: #000000;
+    /* -----------------------
+        Functional Colors 
+    -------------------------- */
+    --color-red: #e20000;
+    --color-blue: #015ff1;
+    --color-blue-dark: #0557d5;
+    --color-purple: #9e54b0;
+    --color-purple-lighter: #744ea6;
+    --color-purple-light: #593D7E;
+    --color-purple-dark: #250056;
+    --color-orange: #ff9300;
+    --color-green: #00c221;
+    --color-fuchsia: #df216d;
+    /* -----------------------
+        Utilities
+    -------------------------- */
+    --utility-block: block;
+    --utility-hide: hide;
+    --utility-show: show;
+    /* -----------------------
+        Shadows 
+    -------------------------- */
+    --shadow-small: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+    --shadow-small-blue: 0 4px 8px 0 rgba(7, 104, 253, 0.32), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 16px 24px 0 rgba(0, 0, 0, 0.16);
+    --shadow-medium-blue: 0 8px 16px 0 rgba(7, 104, 253, 0.4), 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+    /* -----------------------
+        Border 
+    -------------------------- */
+    --border-grey: solid 1px var(--color-neutral-4);
+    --border-blue: 1px solid var(--color-primary);
+    /* -----------------------
+        Border Radius 
+    -------------------------- */
+    --border-radius-medium: 4px;
+    /* -----------------------
+        Hover 
+    -------------------------- */
+    --hover-blue: rgba(7, 104, 253, .08);
+    --hover-blue-light: #ECF3FF;
+    --hover-white: rgba(255, 255, 255, .24);
+    --hover-gray: rbga(0,0,0,1);
+    /* -----------------------
+        Brand Hover 
+    -------------------------- */
+    --hover-primary: var(--color-blue-dark);
+    /* -----------------------
+        Typography 
+    -------------------------- */
+    --text-headline-1: 2.5rem; /* 40px */
+    --text-headline-2: 2rem; /* 32px */
+    --text-title-1: 1.25rem; /* 20px */
+    --text-title-2: 1.125rem; /* 18px */
+    --text-body-1: 1rem; /* 16px */
+    --text-body-2: 14px; /* 14px 0.875rem*/
+    --text-caption: 0.8125rem; /* 13px */
+    /* -----------------------
+        Icons 
+    -------------------------- */
+    /* Where are your icons? */
+    /* ----------------------- 
+        Common 
+    -------------------------- */
+    /* ----------------------- 
+        Spacing 
+    -------------------------- */
+    --margin-xs: 4px;
+    --margin-s: 8px;
+    --margin-m: 16px;
+    --margin-lg: 24px;
+    --padding-xs: 4px;
+    --padding-s: 8px;
+    --padding-m: 16px;
+    --padding-lg: 24px;
+    /* Margin Top */
+    --margin-top-xs: 4px;
+    --margin-top-s: 8px;
+    --margin-top-m: 16px;
+    --margin-top-lg: 24px;
+    /* Margin Right */
+    --margin-right-xs: 4px;
+    --margin-right-s: 8px;
+    --margin-right-m: 16px;
+    --margin-right-lg: 24px;
+    /* Margin Bottom */
+    --margin-bottom-xs: 4px;
+    --margin-bottom-s: 8px;
+    --margin-bottom-m: 16px;
+    --margin-bottom-lg: 24px;
+    /* Margin Left */
+    --margin-left-xs: 4px;
+    --margin-left-s: 8px;
+    --margin-left-m: 16px;
+    --margin-left-lg: 24px;
+    /* Padding Top */
+    --padding-top-xs: 4px;
+    --padding-top-s: 8px;
+    --padding-top-m: 16px;
+    --padding-top-lg: 24px;
+    /* Padding Right */
+    --padding-right-xs: 4px;
+    --padding-right-s: 8px;
+    --padding-right-m: 16px;
+    --padding-right-lg: 24px;
+    /* Padding Bottom */
+    --padding-bottom-xs: 4px;
+    --padding-bottom-s: 8px;
+    --padding-bottom-m: 16px;
+    --padding-bottom-lg: 24px;
+    /* Padding Left */
+    --padding-left-xs: 4px;
+    --padding-left-s: 8px;
+    --padding-left-m: 16px;
+    --padding-left-lg: 24px;
+}
+
