@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AV_Deliverable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Vendor can deliver rented equipment for use at client stakeholder location</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vendor can deliver rented equipment for use at client stakeholder location</inlineHelpText>
+    <label>AV Deliverable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

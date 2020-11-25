@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FB_Deliverable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does Vendor provide delivery services for Menu items</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does Vendor provide delivery services for Menu items</inlineHelpText>
+    <label>FB Deliverable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

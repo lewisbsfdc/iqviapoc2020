@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FB_Set_Menu_Available_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Will vendor created a customized menu for events</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will vendor create a customized menu for events</inlineHelpText>
+    <label>FB Set Menu Available Flag</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

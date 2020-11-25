@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Response__c</fullName>
+    <externalId>false</externalId>
+    <label>Response</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I&apos;m interested</fullName>
+                <default>false</default>
+                <label>I&apos;m interested</label>
+            </value>
+            <value>
+                <fullName>Please, send me additional info</fullName>
+                <default>false</default>
+                <label>Please, send me additional info</label>
+            </value>
+            <value>
+                <fullName>I don&apos;t want to visit this meeting</fullName>
+                <default>false</default>
+                <label>I don&apos;t want to visit this meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

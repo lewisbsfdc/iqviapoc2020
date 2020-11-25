@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_with_Speaker__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/Contact/&quot; + Speaker__c + &quot;/view?c__contactWithSpeaker=1&amp;c__meetingSpeakerSuggestionId=&quot;+Id+&quot;&amp;c__meetingId=&quot;+Meeting__c, &quot;Contact With Speaker&quot;, &quot;_self&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact with Speaker</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

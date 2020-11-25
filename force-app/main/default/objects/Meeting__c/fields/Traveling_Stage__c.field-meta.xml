@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traveling_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Traveling Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request Needs\Preferences</fullName>
+                <default>false</default>
+                <label>Request Needs\Preferences</label>
+            </value>
+            <value>
+                <fullName>Research Options</fullName>
+                <default>false</default>
+                <label>Research Options</label>
+            </value>
+            <value>
+                <fullName>Provide Options</fullName>
+                <default>false</default>
+                <label>Provide Options</label>
+            </value>
+            <value>
+                <fullName>Confirm Options</fullName>
+                <default>false</default>
+                <label>Confirm Options</label>
+            </value>
+            <value>
+                <fullName>Book Travel</fullName>
+                <default>false</default>
+                <label>Book Travel</label>
+            </value>
+            <value>
+                <fullName>Send Full Itinerary</fullName>
+                <default>false</default>
+                <label>Send Full Itinerary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

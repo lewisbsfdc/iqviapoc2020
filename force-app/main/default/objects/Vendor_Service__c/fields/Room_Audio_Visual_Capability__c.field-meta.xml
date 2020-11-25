@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Audio_Visual_Capability__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does Room have built in AV services</description>
+    <externalId>false</externalId>
+    <label>Room Audio Visual Capability</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

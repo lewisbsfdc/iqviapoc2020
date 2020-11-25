@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Setups__c</fullName>
+    <description>Need to determine if a picklist or just a Text area since each location might name the set up a little different</description>
+    <externalId>false</externalId>
+    <label>Room Setups</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+                <label>Classroom</label>
+            </value>
+            <value>
+                <fullName>Chairs Only</fullName>
+                <default>false</default>
+                <label>Chairs Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>ANY_PREVIOUS_MEETINGS_C__c</columns>
+    <columns>CREATEDBYID__c</columns>
+    <columns>CREATEDDATE__c</columns>
+    <columns>CURRENCYISOCODE__c</columns>
+    <columns>ID__c</columns>
+    <columns>ISDELETED__c</columns>
+    <columns>LASTACTIVITYDATE__c</columns>
+    <columns>LASTMODIFIEDBYID__c</columns>
+    <columns>LASTMODIFIEDDATE__c</columns>
+    <columns>LASTREFERENCEDDATE__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>
