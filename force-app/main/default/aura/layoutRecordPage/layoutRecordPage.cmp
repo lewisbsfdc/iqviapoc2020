@@ -3,7 +3,7 @@
         description="Engage Custom Record Page Template"
         access="global"
 >
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    ]<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:attribute
             name="header"
             type="Aura.Component[]"

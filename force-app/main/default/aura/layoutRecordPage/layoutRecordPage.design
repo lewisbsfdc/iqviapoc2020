@@ -1,5 +1,4 @@
 <design:component label="Engage Custom Record Page Template">
-
     <flexipage:template>
         <flexipage:region name="header" defaultWidth="LARGE" />
         <flexipage:region name="sidebar1" defaultWidth="MEDIUM" />

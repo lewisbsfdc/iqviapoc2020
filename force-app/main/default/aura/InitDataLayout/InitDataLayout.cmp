@@ -3,6 +3,8 @@
     <aura:attribute name="objectChildTab" type="Object[]" />
     <aura:attribute name="noSetup" type="Boolean" />
     <aura:attribute name="showNoSetup" type="Boolean" />
+    <aura:attribute name="backgroundColor" type="String" default="#250056"/>
+    <aura:registerEvent name="appEvent" type="c:MeetingSectionSelectionEvent" />
     <aura:handler
             event="c:InitDataLayoutEvent"
             action="{!c.handleApplicationEvent}"
@@ -18,5 +20,6 @@
             class="design-allow-interaction"
             tabs="{!v.objectChildTab}"
             onselect="{!c.toggleSection}"
+            backgroundColor="{!v.backgroundColor}"
     />
 </aura:component>

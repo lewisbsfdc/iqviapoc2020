@@ -143,6 +143,31 @@
                 <componentName>force:relatedListSingleContainer</componentName>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Contact.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Payments__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>sidebar3</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -160,6 +185,31 @@
                 <componentInstanceProperties>
                     <name>relatedListComponentOverride</name>
                     <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Contact.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Payments__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>ADVGRID</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>rowsToDisplay</name>
@@ -335,23 +385,23 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>region1Config</name>
-                    <value>1, Details</value>
+                    <value>1, Details,clipboard</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>region2Config</name>
-                    <value>2, Topics &amp; Availability</value>
+                    <value>2, Topics &amp; Availability,clipboard</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>region3Config</name>
-                    <value>3, Meetings</value>
+                    <value>3, Meetings,clipboard</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>region4Config</name>
-                    <value>4, Payments</value>
+                    <value>4, Payments,clipboard</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>region5Config</name>
-                    <value>5, Notes &amp; Communication</value>
+                    <value>5, Notes &amp; Communication,clipboard</value>
                 </componentInstanceProperties>
                 <componentName>InitDataCmp</componentName>
             </componentInstance>

@@ -12,7 +12,7 @@
               //  var translatedTabList = helper.getLabelList(tabLabels, labelMap);
                 var translatedTabList = tabLabels.split(',');
                 console.log(translatedTabList);
-                helper.fireAppEvent(translatedTabList, config.iconList, config.regionList);
+                helper.fireAppEvent(translatedTabList, config.iconList, config.regionList, component.get('v.backgroundColor'));
             //}),
             //$A.getCallback(function(error){
               //  console.log(error);
@@ -75,13 +75,14 @@
         return config;
     },
 
-    fireAppEvent: function( tabList, iconList, regionList ){
+    fireAppEvent: function( tabList, iconList, regionList, backgroundColor){
         var appEvent = $A.get('e.c:InitDataLayoutEvent');
         console.log(tabList);
         appEvent.setParams({
             'tabNameList': tabList,
             'tabIconList': iconList,
-            'tabRegionList': regionList
+            'tabRegionList': regionList,
+            'backgroundColor': backgroundColor
         });
         appEvent.fire();
     },

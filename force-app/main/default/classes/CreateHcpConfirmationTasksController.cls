@@ -9,7 +9,12 @@ public with sharing class CreateHcpConfirmationTasksController {
         final String TRAVELING_RECORD_TYPE_ID = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Meeting_Traveling').getRecordTypeId();
         final String PAYMENT_RECORD_TYPE_ID = Schema.SObjectType.Case.getRecordTypeInfosByDeveloperName().get('Meeting_Payment').getRecordTypeId();
         System.debug('test');
-        Id currentUserId = UserInfo.getUserId();
+        Group queue = [SELECT Id FROM Group WHERE Name = 'FOP' AND Type = 'Queue'];
+        Id currentUserId = queue.Id;
+        System.debug(currentUserId);
+        Date todayDate = System.today();
+                //UserInfo.getUserId();
+
         List<Case> caseList = new List<Case>();
         Case case1 = new Case();
         case1.Subject = 'Invite';
@@ -17,6 +22,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case1.OwnerId = currentUserId;
         case1.Origin = 'Web';
         case1.RecordTypeId = HCP_CONFIRMATION_RECORD_TYPE_ID;
+        case1.Due_Date__c = todayDate.addDays(-2);
         caseList.add(case1);
         Case case2 = new Case();
         case2.Subject = 'Confirm';
@@ -24,6 +30,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case2.OwnerId = currentUserId;
         case2.Origin = 'Web';
         case2.RecordTypeId = HCP_CONFIRMATION_RECORD_TYPE_ID;
+        case2.Due_Date__c = todayDate.addDays(-1);
         caseList.add(case2);
         Case case3 = new Case();
         case3.Subject = 'Send Full Confirmation';
@@ -31,6 +38,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case3.OwnerId = currentUserId;
         case3.Origin = 'Web';
         case3.RecordTypeId = HCP_CONFIRMATION_RECORD_TYPE_ID;
+        case3.Due_Date__c = todayDate;
         caseList.add(case3);
         Case case4 = new Case();
         case4.Subject = 'Remind';
@@ -38,6 +46,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case4.OwnerId = currentUserId;
         case4.Origin = 'Web';
         case4.RecordTypeId = HCP_CONFIRMATION_RECORD_TYPE_ID;
+        case4.Due_Date__c = todayDate.addDays(1);
         caseList.add(case4);
 
         Case case5 = new Case();
@@ -46,6 +55,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case5.OwnerId = currentUserId;
         case5.Origin = 'Web';
         case5.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case5.Due_Date__c = todayDate.addDays(-2);
         caseList.add(case5);
 
         Case case6 = new Case();
@@ -54,6 +64,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case6.OwnerId = currentUserId;
         case6.Origin = 'Web';
         case6.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case6.Due_Date__c = todayDate.addDays(-1);
         caseList.add(case6);
 
         Case case7 = new Case();
@@ -62,6 +73,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case7.OwnerId = currentUserId;
         case7.Origin = 'Web';
         case7.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case7.Due_Date__c = todayDate;
         caseList.add(case7);
 
         Case case8 = new Case();
@@ -70,6 +82,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case8.OwnerId = currentUserId;
         case8.Origin = 'Web';
         case8.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case8.Due_Date__c = todayDate.addDays(1);
         caseList.add(case8);
 
         Case case9 = new Case();
@@ -78,6 +91,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case9.OwnerId = currentUserId;
         case9.Origin = 'Web';
         case9.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case9.Due_Date__c = todayDate.addDays(2);
         caseList.add(case9);
 
         Case case10 = new Case();
@@ -86,6 +100,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case10.OwnerId = currentUserId;
         case10.Origin = 'Web';
         case10.RecordTypeId = TRAVELING_RECORD_TYPE_ID;
+        case10.Due_Date__c = todayDate.addDays(3);
         caseList.add(case10);
 
         Case case11 = new Case();
@@ -94,6 +109,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case11.OwnerId = currentUserId;
         case11.Origin = 'Web';
         case11.RecordTypeId = PAYMENT_RECORD_TYPE_ID;
+        case11.Due_Date__c = todayDate.addDays(-2);
         caseList.add(case11);
 
         Case case12 = new Case();
@@ -102,6 +118,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case12.OwnerId = currentUserId;
         case12.Origin = 'Web';
         case12.RecordTypeId = PAYMENT_RECORD_TYPE_ID;
+        case12.Due_Date__c = todayDate.addDays(-1);
         caseList.add(case12);
 
         Case case13 = new Case();
@@ -110,6 +127,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case13.OwnerId = currentUserId;
         case13.Origin = 'Web';
         case13.RecordTypeId = PAYMENT_RECORD_TYPE_ID;
+        case13.Due_Date__c = todayDate;
         caseList.add(case13);
 
         Case case14 = new Case();
@@ -118,6 +136,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case14.OwnerId = currentUserId;
         case14.Origin = 'Web';
         case14.RecordTypeId = PAYMENT_RECORD_TYPE_ID;
+        case14.Due_Date__c = todayDate.addDays(1);
         caseList.add(case14);
 
         Case case15 = new Case();
@@ -126,6 +145,7 @@ public with sharing class CreateHcpConfirmationTasksController {
         case15.OwnerId = currentUserId;
         case15.Origin = 'Web';
         case15.RecordTypeId = PAYMENT_RECORD_TYPE_ID;
+        case15.Due_Date__c = todayDate.addDays(2);
         caseList.add(case15);
         insert caseList;
     }

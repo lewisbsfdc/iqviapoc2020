@@ -1,4 +1,5 @@
 <design:component label="Layout Tab Configuration">
+    <design:attribute name="backgroundColor" label="Background Color" description="Background Color"/>
     <design:attribute
             placeholder="1,label,icon"
             label="Tab sequence, label and icon"

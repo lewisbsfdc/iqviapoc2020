@@ -3,6 +3,7 @@
         description="Configuration for vertical navigation tabs"
         access="global"
 >
+    <aura:attribute name="backgroundColor" type="String" default="#250056"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler
             event="aura:locationChange"

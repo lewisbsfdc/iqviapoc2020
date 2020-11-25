@@ -6,4 +6,5 @@
     <aura:attribute name="tabNameList" type="String[]" />
     <aura:attribute name="tabIconList" type="String[]" />
     <aura:attribute name="tabRegionList" type="String[]" />
+    <aura:attribute name="backgroundColor" type="String" />
 </aura:event>

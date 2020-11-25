@@ -68,6 +68,14 @@
                 <behavior>Readonly</behavior>
                 <field>Full_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Meeting__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Parent_Account__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -480,6 +488,18 @@
         <fields>NAME</fields>
         <fields>Form_Expiration_Date__c</fields>
         <relatedList>Speaker_W9_Form__c.Speaker__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Amount</fields>
+        <fields>Invoice__c</fields>
+        <fields>Meeting__c</fields>
+        <fields>PaymentMethod__c</fields>
+        <relatedList>Payment.Speaker__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Invoice__c.Speaker__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
